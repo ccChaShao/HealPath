@@ -1,0 +1,2 @@
+@import "../../styles/timeline.wxss";
+.observation{border-top:1rpx solid #e0e8d7;padding:25rpx 0}.space{margin-top:20rpx}

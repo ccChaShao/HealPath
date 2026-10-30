@@ -1,0 +1,13 @@
+{
+  "name": "health-journey",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "check:mini": "tsc --project miniprogram/tsconfig.json --noEmit"
+  }
+}

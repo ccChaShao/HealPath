@@ -1,0 +1,1 @@
+{ "desc": "健康档案不对搜索索引开放", "rules": [{ "action": "disallow", "page": "*" }] }

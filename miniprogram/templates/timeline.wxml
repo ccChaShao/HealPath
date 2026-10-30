@@ -1,0 +1,18 @@
+<template name="healthTimeline">
+  <view class="health-timeline">
+    <view wx:for="{{groups}}" wx:for-item="month" wx:key="key" class="timeline-month">
+      <view class="timeline-month-label">{{month.label}}</view>
+      <view wx:for="{{month.days}}" wx:for-item="day" wx:key="date" class="timeline-day">
+        <view class="timeline-date"><view class="timeline-number">{{day.day}}</view><view>{{day.relative || day.weekday}}</view><view class="timeline-full-date">{{day.date}}</view></view>
+        <view class="timeline-track"><view class="timeline-dot"/>
+          <view wx:for="{{day.items}}" wx:for-item="entry" wx:key="id" class="timeline-entry" bindtap="edit" data-kind="encounters" data-id="{{entry.id}}">
+            <view class="row"><view><text class="tag">{{entry.eventType}}</text><text wx:if="{{entry.topic}}" class="tag timeline-topic">{{entry.topic}}</text></view><view class="timeline-edit">编辑</view></view>
+            <view class="timeline-entry-title">{{entry.title}}</view>
+            <view wx:if="{{entry.note || entry.symptoms || entry.diagnosis || entry.advice}}" class="timeline-entry-note">{{entry.note || entry.symptoms || entry.diagnosis || entry.advice}}</view>
+            <view wx:if="{{entry.hospital || entry.department}}" class="muted">{{entry.hospital}} {{entry.department}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
