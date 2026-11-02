@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">愈见存折 · 小程序图标</title>
+  <desc id="desc">深绿色背景上的米白色健康存折，封面带有绿色爱心和两行记录，暖金色书签标记每一次复诊。</desc>
+  <rect width="1024" height="1024" fill="#2D654F"/>
+  <g transform="rotate(-7 512 512)">
+    <rect x="254" y="229" width="520" height="590" rx="64" fill="#204D3C" opacity="0.35"/>
+    <rect x="252" y="213" width="520" height="590" rx="64" fill="#ABC7A4"/>
+    <path d="M310 693H756V759C756 775 743 787 727 787H316C287 787 270 769 270 742C270 715 285 693 310 693Z" fill="#E2EAD5"/>
+    <path d="M316 764H714" fill="none" stroke="#B7CBAA" stroke-width="10" stroke-linecap="round"/>
+    <rect x="252" y="205" width="520" height="542" rx="62" fill="#FFFCF0"/>
+    <path d="M314 205H328V747H314C280 747 252 719 252 685V267C252 233 280 205 314 205Z" fill="#D5E2C8"/>
+    <path d="M647 205H709V339L678 319L647 339Z" fill="#D7AE6B"/>
+    <path d="M550 542C534 529 442 470 442 407C442 369 468 348 499 348C522 348 541 360 550 379C559 360 578 348 601 348C632 348 658 369 658 407C658 470 566 529 550 542Z" fill="#2D654F"/>
+    <path d="M435 613H659" fill="none" stroke="#95B493" stroke-width="25" stroke-linecap="round"/>
+    <path d="M435 667H591" fill="none" stroke="#95B493" stroke-width="25" stroke-linecap="round"/>
+  </g>
+</svg>
